@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WWW.recipi process.com</title>
+   <!-- <link rel="stylesheet" href="style.css"> -->
+
+   <style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+ .container{
+    height: 165vh;
+    width: 100vw;
+    overflow-x: none;
+    background-color: #FFDEE9;
+background-image: linear-gradient(0deg, #FFDEE9 0%, #B5FFFC 100%);
+
+    
+ }
+
+ .navcontainer{
+    width: 100%;
+    width: 100vw;
+    /* background-color: #7171b4e5; */
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+ }
+
+nav{
+    width: 100%;
+    overflow-x: none;
+    padding-right: 2rem;
+}
+
+ #navlist{
+    width: 100%;
+    padding: 15px;
+    /* margin-left: 15px;
+    margin-right: 15px; */
+    list-style: none;
+    font-size: 2.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ }
+
+#navlogo{
+    font-size: 2.8rem;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+#navitems{
+    display: flex;
+    gap: 40px;
+    
+}
+
+.footerbox{
+    background-color: #0093E9;
+background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+
+width: 100%;
+text-align: center;
+min-height: 40px;
+
+}
+
+.footerbox p{
+    color: azure;
+    font-size: 2rem;
+}
+
+.contentbox{
+    width: 60%;
+    margin: auto;
+    
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    padding: 3rem;
+    box-shadow: 3px 3px 40px rgb(4, 255, 0);
+}
+
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.rightbox{
+    position: relative;
+    transition: all 0.3s linear;
+
+   
+}
+
+
+.rightbox img{
+    margin: 20px;
+height: 220px; 
+width: 260px;   
+border-radius: 20px;
+transition: all 0.6s 0s;
+
+    
+}
+
+.rightbox:hover{
+    transform: scale(1.1);
+}
+
+.leftbox{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+}
+
+.leftbox h2{
+font-size: 2rem;
+}
+
+.ingbox{
+    font-size: 1.3rem;
+}
+
+.rightbox .overlay{
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(48, 46, 46, 0.49);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 20px;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.rightbox:hover .overlay{
+opacity: 1;
+}
+
+.rightbox .overlay span{
+    color: white;
+    font-size: 1.2rem;
+}
+
+
+
+
+
+
+
+
+
+   </style>
+    
+</head>
+
+
+<body>
+    <div class="container">
+
+        <header>
+            
+        <div class="navcontainer">
+            
+            <nav>
+                <ul id="navlist">
+                    <li>
+                    <p id="navlogo">www.recipi.com</p>
+                    </li>
+
+                    <li>
+                        <div id="navitems">
+                            <a href="#">Home</a>
+                            <a href="#">Contact</a>
+                            <a href="#">About</a>
+                        </div>
+                    </li>
+
+                </ul>
+            </nav>
+        
+       
+        </div>
+        </header>
+
+        <main>
+            <div class="contentbox">
+                <section>
+                    <div class="item">
+                        <div class="leftbox">
+                            <h2>Gulab Jamun</h2>
+
+                            <div>
+                                <h3>ingridients:-</h3>
+                                <ul class="ingbox">
+
+                                    <li>Flour</li>
+                                    <li>Grated Paneer</li>
+                                    <li>Sooji/Rava</li>
+                                    <li>Baking Powder</li>
+                                    <li>Baking Soda</li>
+                                    <li>Oil</li>
+                                    <li>Water</li>
+                                    <li>Sugar</li>
+                                    <li>Coarsely Crushed Cardamom</li>
+
+                                    
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3>Recipi:-</h3>
+
+                                <ol class="rbox">
+                                    <li>Boil sugar and water to prepare syrup remove from fire. Add <br>cardamom and keep aside to cool.</li>
+                                    <li>In a mixing bowl put the flour, paneer, sooji, Nestlé MILKMAID, baking powder and baking soda. Mix gently to make a soft dough. Do not knead too much.</li>
+                                    <li> Divide the mixture into 30-35 portions and gently roll into round gulab jamuns. Fry in the oil at very low flame till golden brown in color.</li>
+                                    <li>Keep putting the fried gulab jamuns in the prepared sugar syrup. Once all the gulab jamuns are in the sugar syrup bring it to a boil and remove from flame.</li>
+                                    <li>Serve warm.</li>
+                                    
+                                </ol>
+                            </div>
+                            
+
+                        </div>
+                        
+
+                        <div class="rightbox">
+                            <img src="gulab jamun.jpeg" alt="gulab Jamun">
+                            <div class="overlay">
+                                <span>Click Here to buy</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section>
+                    <div class="item">
+                        <div class="leftbox">
+                            <h2>Rasgulla</h2>
+
+                            <div>
+                                <h3>ingridients:-</h3>
+                                <ul class="ingbox">
+                                    <li>2 litre milk</li>
+                                    <li>1 1/2 cup sugar</li>
+                                    <li>1 teaspoon rose water</li>
+                                    <li>3 tablespoon lime juice</li>
+                                    <li>3 cup water</li>
+                                    <li>1 tablespoon all purpose flour</li>
+                                    <li>2 teaspoon powdered green cardamom</li>
+                                    
+                                </ul>
+                            </div>
+
+                            <div>
+                                <h3>Recipi:-</h3>
+
+                                <ol>
+                                    <li>Prepare the chhena</li>
+                                    <li>Strain the chhena from whey</li>
+                                    <li>Strain the whey </li>
+                                    <li>Allow the water to separate</li>
+                                    <li> Prepare sugar syrup</li>
+                                    <li>Knead the chhena</li>
+                                    <li>Boil the rasgullas</li>
+                                    <li> Cook covered</li>
+                                    <li>Enjoy!</li>
+
+                                </ol>
+                            </div>
+                            
+
+                        </div>
+
+                        <div class="rightbox">
+                            <img src="Rasgulla.jpeg" alt="Rasgulla">
+                            <div class="overlay">
+                                <span>Click Here to buy</span>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
+       
+        <footer>
+                  
+        <div class="footerbox">
+           <p>copyright &copy; Recipi Pvt Ltd All Rights Reseer</p> 
+           
+        </div>
+        </footer>
+      
+
+    </div>
+</body>
+</html>
